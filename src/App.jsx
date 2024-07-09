@@ -4,6 +4,7 @@ import Banner from "./Components/Banner";
 import Collections from "./Components/Collections";
 import SaleArea from "./Components/SaleArea";
 import SliderBrands from "./Components/SliderBrands";
+import ProductsArea from "./Components/ProductsArea";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Collections />
       <SaleArea />
       <SliderBrands />
+      <ProductsArea />
     </>
   );
 }
