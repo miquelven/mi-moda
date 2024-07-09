@@ -6,7 +6,7 @@ import WhatsappButton from "../WhatsappButton";
 
 export default function SaleArea() {
   return (
-    <section className="mt-60 mb-40 max-sm:mt-96">
+    <section id="promocoes" className="mt-60 mb-40 max-sm:mt-96">
       <Container>
         <div className="flex flex-col gap-14 ">
           <div className="text-center">
