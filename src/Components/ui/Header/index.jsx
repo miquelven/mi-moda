@@ -18,12 +18,12 @@ function Header() {
             <ul
               className={`transition-all duration-300 flex items-center max-md:absolute max-md:h-screen max-md:inset-0 max-md:flex-col max-md:py-20 max-md:items-start max-md:gap-14 max-md:bg-[#e9ecef] 
                      ${
-                       !openMenu ? " max-md:opacity-0 z-20" : " opacity-100 z-0"
+                       !openMenu ? " max-md:opacity-0 z-0" : " opacity-100 z-20"
                      }
                     `}
             >
               {linksData.map((link) => (
-                <li key={link.id} className="px-7 hover:text-black  ">
+                <li key={link.id} className=" px-7 hover:text-black  ">
                   <span className="text-lg font-semibold max-md:text-3xl max-md:font-normal">
                     <a href={link.href}>{link.text}</a>
                   </span>
