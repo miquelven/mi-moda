@@ -3,6 +3,7 @@ import Header from "./Components/ui/Header";
 import Banner from "./Components/Banner";
 import Collections from "./Components/Collections";
 import SaleArea from "./Components/SaleArea";
+import SliderBrands from "./Components/SliderBrands";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <Collections />
       <SaleArea />
+      <SliderBrands />
     </>
   );
 }
