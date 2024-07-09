@@ -10,3 +10,12 @@ body {
   background-color: #e9ecef;
   color: #495057;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
