@@ -19,7 +19,7 @@ export default function ProductsArea() {
           <SectionTitle>Alguns Produtos</SectionTitle>
         </div>
 
-        <ul className="flex justify-center items-center mt-28 mb-20 max-sm:mb-12">
+        <ul className="flex justify-center items-center mt-28 mb-20 max-sm:mb-12 max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-5 max-sm:text-center">
           {filterData.map((filter) => (
             <li
               key={filter.id}
@@ -41,7 +41,7 @@ export default function ProductsArea() {
           ))}
         </ul>
 
-        <ul className="grid grid-cols-4 gap-x-14 gap-y-44 max-lg:grid-cols-3 max-lg:gap-x-8 max-md:gap-x-20 max-md:grid-cols-2 max-sm:gap-x-10 max-sm:gap-y-24">
+        <ul className="grid grid-cols-4 gap-x-14 gap-y-44 max-lg:grid-cols-3 max-lg:gap-x-8 max-md:gap-x-20 max-md:grid-cols-2 max-sm:gap-x-5 max-sm:gap-y-24 ">
           {productsData.map(
             (product) =>
               product.filtered.includes(filteredValue) && (
@@ -51,12 +51,14 @@ export default function ProductsArea() {
                       <img
                         src={product.src}
                         alt="Imagem do produto"
-                        className="transition-all duration-500 rounded-md object-cover w-full h-[440px]  hover:scale-110 max-sm:h-[250px]"
+                        className="transition-all duration-500 rounded-md object-cover w-full h-[440px]  hover:scale-110 max-sm:h-[240px]"
                       />
                     </div>
                     <div className="mt-3 flex flex-col gap-3">
                       <div className="flex flex-col gap-1">
-                        <h6 className="font-bold text-lg">{product.text}</h6>
+                        <h6 className="font-bold text-lg max-sm:text-base">
+                          {product.text}
+                        </h6>
                         <span className="font-semibold">
                           R${product.price},00
                         </span>
