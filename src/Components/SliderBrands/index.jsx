@@ -6,17 +6,10 @@ import brandsData from "../../data/brandsData";
 
 const responsiveData = [
   {
-    breakpoint: 1500,
-    settings: {
-      slidesToShow: 4,
-      slidesToScroll: 2,
-    },
-  },
-  {
     breakpoint: 1024,
     settings: {
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
     },
   },
   {
@@ -40,20 +33,21 @@ export default function SliderBrands() {
     dots: false,
     arrows: false,
     infinite: true,
-
+    slidesToShow: 5,
+    slidesToScroll: 2,
     autoplay: true,
-    speed: 3000,
+    speed: 2000,
     autoplaySpeed: 0,
     cssEase: "linear",
     responsive: responsiveData,
   };
 
   return (
-    <div className="bg-black py-5  mb-40">
+    <div className="bg-black py-5 mt-80  mb-40 max-sm:mt-28 max-sm:mb-32">
       <Slider {...settings}>
         {brandsData.map((brand) => (
           <div
-            className="w-24 h-24 max-lg:w-20 max-lg:h-20 max-sm:w-12 max-sm:h-12"
+            className="w-20 h-20 max-lg:w-16 max-lg:h-16 max-sm:w-12 max-sm:h-12"
             key={brand.id}
           >
             <div className="relative w-full h-full">
