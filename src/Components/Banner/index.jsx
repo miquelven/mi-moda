@@ -5,7 +5,7 @@ import bannerImg from "../../assets/imgs/banner.png";
 export default function Banner() {
   return (
     <main
-      className={`relative z-0 h-[80vh]  w-full bg-no-repeat  bg-cover max-lg:bg-left max-sm:h-[60vh]`}
+      className={`relative z-0 h-[80vh]  w-full bg-no-repeat bg-center bg-cover max-lg:bg-left max-sm:h-[60vh]`}
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
       <div className="absolute z-10 inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/10 max-sm:h-[90%] max-sm:via-black/60 max-sm:from-black/70 max-sm:to-black/50"></div>
