@@ -5,6 +5,7 @@ import Collections from "./Components/Collections";
 import SaleArea from "./Components/SaleArea";
 import SliderBrands from "./Components/SliderBrands";
 import ProductsArea from "./Components/ProductsArea";
+import FeaturesArea from "./Components/FeaturesArea";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SaleArea />
       <SliderBrands />
       <ProductsArea />
+      <FeaturesArea />
     </>
   );
 }
