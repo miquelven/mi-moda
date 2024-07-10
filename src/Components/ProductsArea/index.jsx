@@ -15,11 +15,13 @@ export default function ProductsArea() {
   return (
     <section id="produtos" className="mt-72">
       <Container>
-        <div className="text-center">
-          <SectionTitle>Alguns Produtos</SectionTitle>
-        </div>
+        <SectionTitle>Alguns Produtos</SectionTitle>
 
-        <ul className="flex justify-center items-center mt-28 mb-20 max-sm:mb-12 max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-5 max-sm:text-center">
+        <ul
+          data-aos="fade-up"
+          data-aos-delay="1000"
+          className="flex justify-center items-center mt-28 mb-20 max-sm:mb-12 max-sm:grid max-sm:grid-cols-2 max-sm:gap-y-5 max-sm:text-center"
+        >
           {filterData.map((filter) => (
             <li
               key={filter.id}
@@ -45,8 +47,8 @@ export default function ProductsArea() {
           {productsData.map(
             (product) =>
               product.filtered.includes(filteredValue) && (
-                <li key={product.id}>
-                  <div>
+                <li data-aos="fade-up" data-aos-delay="1100" key={product.id}>
+                  <div data-aos="fade-up" data-aos-delay={product.id * 200}>
                     <div className="transition-all duration-500 w-full h-full overflow-hidden shadow-md rounded-md shadow-black/20  brightness-90 hover:brightness-100 ">
                       <img
                         src={product.src}

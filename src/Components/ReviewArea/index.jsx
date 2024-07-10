@@ -31,6 +31,8 @@ export default function ReviewArea() {
       >
         {reviewData.map((review) => (
           <div
+            data-aos="zoom-in"
+            data-aos-delay="700"
             key={review.id}
             className="h-full w-full flex flex-col mb-10 items-center justify-center "
           >

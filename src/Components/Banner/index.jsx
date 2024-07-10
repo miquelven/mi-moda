@@ -13,14 +13,26 @@ export default function Banner() {
         <div className="relative z-20 h-[80vh] w-full  flex justify-between items-center text-white max-sm:h-[70vh]">
           <div className="w-4/6 flex flex-col gap-14 max-lg:gap-10  max-sm:w-full ">
             <div className="flex flex-col gap-2">
-              <span className="font-semibold text-lg max-lg:text-base max-sm:text-sm">
+              <span
+                data-aos="fade-up"
+                data-aos-delay="300"
+                className="font-semibold text-lg max-lg:text-base max-sm:text-sm"
+              >
                 Novas Peças
               </span>
-              <h1 className="font-bold text-8xl text-white max-lg:text-7xl max-sm:text-4xl max-sm:leading-[48px]">
+              <h1
+                data-aos="fade-up"
+                data-aos-delay="500"
+                className="font-bold text-8xl text-white max-lg:text-7xl max-sm:text-4xl max-sm:leading-[48px]"
+              >
                 Novidades prontas para arrasar
               </h1>
             </div>
-            <p className="text-xl w-2/3 font-medium max-lg:text-lg max-lg:w-3/4 max-sm:w-full max-sm:text-sm max-sm:leading-6 max-sm:font-light">
+            <p
+              data-aos="fade-up"
+              data-aos-delay="700"
+              className="text-xl w-2/3 font-medium max-lg:text-lg max-lg:w-3/4 max-sm:w-full max-sm:text-sm max-sm:leading-6 max-sm:font-light"
+            >
               Confira nossa nova coleção de roupas e acessórios que vão
               transformar seu look. Peças exclusivas e estilosas para você
               arrasar em qualquer ocasião.

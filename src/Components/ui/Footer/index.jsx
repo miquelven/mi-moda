@@ -13,7 +13,7 @@ export default function Footer() {
     <footer>
       <Container>
         <div className="grid grid-cols-3 gap-20 max-xl:grid-cols-2 max-xl:gap-y-28 max-md:grid-cols-1 max-sm:gap-16">
-          <div>
+          <div data-aos="fade-up" data-aos-delay="700">
             <FooterTitle>Contato</FooterTitle>
 
             <ul className="flex flex-col gap-4 max-sm:text-sm">
@@ -45,7 +45,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up" data-aos-delay="700">
             <FooterTitle>Horário de Funcionamento</FooterTitle>
 
             <ul className="flex flex-col gap-4">
@@ -60,12 +60,17 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up" data-aos-delay="700">
             <FooterTitle>Siga-nos nas Redes Sociais</FooterTitle>
 
             <ul className="grid grid-cols-3 gap-5">
               {footerData.map((data) => (
-                <li key={data.id} className="relative ">
+                <li
+                  key={data.id}
+                  className="relative"
+                  data-aos="zoom-in"
+                  data-aos-delay={1300 * data.id}
+                >
                   <img
                     src={data.src}
                     alt="Imagem de postagem no instagram"
@@ -83,7 +88,7 @@ export default function Footer() {
       <div className="bg-gradient-to-b from-zinc-400/10 to-[#e9ecef] w-full h-2 mt-20"></div>
 
       <div className="my-5">
-        <p className="text-center ">
+        <p className="text-center max-sm:text-sm ">
           Desenvolvido por <span className="font-semibold">Miquelven</span>
         </p>
       </div>
