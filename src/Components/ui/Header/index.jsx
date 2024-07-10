@@ -41,7 +41,7 @@ function Header() {
               {linksData.map((link) => (
                 <li
                   key={link.id}
-                  onClick={() => setOpenMenu(!openMenu)}
+                  onClick={() => setOpenMenu(false)}
                   className="transition-all duration-300 px-7 hover:text-[#ef8354]  "
                 >
                   <span className="text-lg font-semibold max-md:text-3xl max-md:font-normal">
