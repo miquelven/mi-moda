@@ -34,7 +34,7 @@ export default function SliderBrands() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 0,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: responsiveData,
   };

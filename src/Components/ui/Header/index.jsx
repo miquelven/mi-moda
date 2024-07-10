@@ -5,6 +5,8 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 import { useEffect, useState } from "react";
 
+import logo from "../../../assets/imgs/Mmoda.png";
+
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -20,7 +22,11 @@ function Header() {
     <header className="py-5 shadow-lg shadow-zinc-300/50 relative z-10">
       <Container>
         <div className="flex  items-center justify-between">
-          <h1>Logo</h1>
+          <img
+            src={logo}
+            alt="Imagem da logo"
+            className="w-12 h-12 object-center object-cover "
+          />
 
           <nav>
             <ul
