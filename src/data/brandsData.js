@@ -1,12 +1,12 @@
-import brand2 from "../assets/imgs/brand2.png";
-import brand3 from "../assets/imgs/brand3.png";
-import brand4 from "../assets/imgs/brand4.png";
-import brand5 from "../assets/imgs/brand5.png";
-import brand6 from "../assets/imgs/brand6.png";
-import brand7 from "../assets/imgs/brand7.png";
-import brand8 from "../assets/imgs/brand8.png";
-import brand9 from "../assets/imgs/brand9.png";
-import brand10 from "../assets/imgs/brand10.png";
+import brand2 from "../assets/imgs/brand2.webp";
+import brand3 from "../assets/imgs/brand3.webp";
+import brand4 from "../assets/imgs/brand4.webp";
+import brand5 from "../assets/imgs/brand5.webp";
+import brand6 from "../assets/imgs/brand6.webp";
+import brand7 from "../assets/imgs/brand7.webp";
+import brand8 from "../assets/imgs/brand8.webp";
+import brand9 from "../assets/imgs/brand9.webp";
+import brand10 from "../assets/imgs/brand10.webp";
 
 const brandsData = [
   {

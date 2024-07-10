@@ -1,6 +1,6 @@
 import Container from "../Container";
 
-import bannerImg from "../../assets/imgs/banner.png";
+import bannerImg from "../../assets/imgs/banner.webp";
 
 export default function Banner() {
   return (

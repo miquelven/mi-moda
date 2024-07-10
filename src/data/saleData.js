@@ -1,6 +1,6 @@
 import tShirt from "../assets/imgs/tShirt.webp";
-import outerWear from "../assets/imgs/outerwear.jpg";
-import jacket from "../assets/imgs/jacket.png";
+import outerWear from "../assets/imgs/outerwear.webp";
+import jacket from "../assets/imgs/jacket.webp";
 
 const saleData = [
   {

@@ -1,9 +1,9 @@
-import reviewMan1 from "../assets/imgs/reviewMan1.png";
-import reviewMan2 from "../assets/imgs/reviewMan2.png";
+import reviewMan1 from "../assets/imgs/reviewman1.webp";
+import reviewMan2 from "../assets/imgs/reviewman2.webp";
 
-import reviewWomen1 from "../assets/imgs/reviewWomen1.png";
-import reviewWomen2 from "../assets/imgs/reviewWome2.png";
-import reviewWomen3 from "../assets/imgs/reviewWomen3.jpg";
+import reviewWomen1 from "../assets/imgs/reviewwomen1.webp";
+import reviewWomen2 from "../assets/imgs/reviewWome2.webp";
+import reviewWomen3 from "../assets/imgs/reviewWomen3.webp";
 
 const reviewData = [
   {

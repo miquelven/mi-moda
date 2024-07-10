@@ -1,9 +1,9 @@
-import footerImg1 from "../assets/imgs/footerImg1.jpeg";
-import footerImg2 from "../assets/imgs/footerImg2.png";
-import footerImg3 from "../assets/imgs/footerImg3.png";
-import footerImg4 from "../assets/imgs/footerImg4.png";
-import footerImg5 from "../assets/imgs/footerImg5.png";
-import footerImg6 from "../assets/imgs/footerImg6.png";
+import footerImg1 from "../assets/imgs/footerImg1.webp";
+import footerImg2 from "../assets/imgs/footerImg2.webp";
+import footerImg3 from "../assets/imgs/footerImg3.webp";
+import footerImg4 from "../assets/imgs/footerImg4.webp";
+import footerImg5 from "../assets/imgs/footerImg5.webp";
+import footerImg6 from "../assets/imgs/footerImg6.webp";
 
 const footerData = [
   {

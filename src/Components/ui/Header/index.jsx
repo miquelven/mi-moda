@@ -5,7 +5,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 import { useEffect, useState } from "react";
 
-import logo from "../../../assets/imgs/Mmoda.png";
+import logo from "../../../assets/imgs/mmoda.webp";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);

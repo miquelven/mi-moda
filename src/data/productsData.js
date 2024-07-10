@@ -1,19 +1,19 @@
-import shoes1 from "../assets/imgs/shoes1.jpg";
-import shoes2 from "../assets/imgs/shoes2.jpg";
-import shoes3 from "../assets/imgs/shoes3.jpg";
-import shoes4 from "../assets/imgs/shoes4.jpg";
-import shoes5 from "../assets/imgs/shoes5.jpg";
+import shoes1 from "../assets/imgs/shoes1.webp";
+import shoes2 from "../assets/imgs/shoes2.webp";
+import shoes3 from "../assets/imgs/shoes3.webp";
+import shoes4 from "../assets/imgs/shoes4.webp";
+import shoes5 from "../assets/imgs/shoes5.webp";
 
 import tShirtWomen1 from "../assets/imgs/tShirtWomen1.webp";
 import tShirtWomen2 from "../assets/imgs/tShirtWomen2.webp";
 import tShirtWomen3 from "../assets/imgs/tShirtWomen3.webp";
 import tShirtWomen4 from "../assets/imgs/tShirtWomen4.webp";
-import tShirtWomen5 from "../assets/imgs/tShirtWomen5.png";
+import tShirtWomen5 from "../assets/imgs/tshirtwomen5.webp";
 
 import tShirtMan1 from "../assets/imgs/tShirtman1.webp";
 import tShirtMan2 from "../assets/imgs/tShirtman2.webp";
 import tShirtMan3 from "../assets/imgs/tShirtman3.webp";
-import tShirtMan4 from "../assets/imgs/tShirtman4.jpeg";
+import tShirtMan4 from "../assets/imgs/tShirtman4.webp";
 import tShirtMan5 from "../assets/imgs/tShirtman5.webp";
 
 const productsData = [

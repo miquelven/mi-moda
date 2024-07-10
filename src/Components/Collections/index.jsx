@@ -1,6 +1,6 @@
 import Container from "../Container";
 
-import collectionImg from "../../assets/imgs/collection.jpg";
+import collectionImg from "../../assets/imgs/collection.webp";
 import SectionTitle from "../SectionTitle";
 import WhatsappButton from "../WhatsappButton";
 
