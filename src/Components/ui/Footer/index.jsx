@@ -42,6 +42,15 @@ export default function Footer() {
                   (11) 91234-5678
                 </p>
               </li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233979.548848616!2d-46.812681583270894!3d-23.606827118772106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce577e321df913%3A0xd572a0b50d6b6306!2sC.Kamura%20SP!5e0!3m2!1spt-PT!2sbr!4v1720608761106!5m2!1spt-PT!2sbr"
+                width="100%"
+                height="100"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                className="mt-16 shadow-md shadow-black/20 max-md:mt-5 "
+              ></iframe>
             </ul>
           </div>
 
