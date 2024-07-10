@@ -11,7 +11,7 @@ export default function Collections() {
         {/* line */}
         <div className="bg-gradient-to-b from-zinc-400/10 to-[#e9ecef] w-full h-2 mb-20"></div>
 
-        <div className="relative z-[-1] grid grid-cols-3 justify-center items-center max-lg:grid-cols-2 max-sm:grid-cols-1">
+        <div className="relative  grid grid-cols-3 justify-center items-center max-lg:grid-cols-2 max-sm:grid-cols-1">
           <div className=" flex flex-col gap-20 max-sm:relative max-sm:z-10  max-sm:-mt-14">
             <div data-aos="fade-up" data-aos-delay="700" className="w-fit">
               <SectionTitle>Nova Coleção</SectionTitle>
