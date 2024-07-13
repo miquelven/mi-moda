@@ -27,6 +27,10 @@ const responsiveData = [
 
 export default function SliderBrands() {
   const settings = {
+    pauseOnFocus: false,
+    pauseOnHover: false,
+    pauseOnDotsHover: false,
+    draggable: false,
     dots: false,
     arrows: false,
     infinite: true,
