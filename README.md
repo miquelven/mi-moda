@@ -27,12 +27,16 @@
 
 ## 📚 Sobre o Projeto
 
+</br>
+
 **MiModa** é uma aplicação web moderna e responsiva focada em proporcionar a melhor experiência de navegação para os amantes da moda. O site apresenta um design elegante e funcional, permitindo aos usuários explorar as últimas tendências e coleções de moda.
 
 </br>
 </br>
 
 ## 🚀 Funcionalidades
+
+</br>
 
 - Navegação intuitiva e responsiva
 - Exibição de coleções de moda atualizadas
