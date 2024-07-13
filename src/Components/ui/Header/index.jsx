@@ -19,7 +19,7 @@ function Header() {
   });
 
   return (
-    <header className="py-5 shadow-lg shadow-zinc-300/50 relative z-10">
+    <header className="py-5 shadow-lg shadow-zinc-300/50 relative ">
       <Container>
         <div className="flex  items-center justify-between">
           <img
@@ -33,8 +33,8 @@ function Header() {
               className={`transition-all duration-300 flex items-center max-md:fixed max-md:h-screen max-md:inset-0 max-md:flex-col max-md:py-20 max-md:items-start max-md:gap-14 max-md:bg-[#e9ecef] 
                      ${
                        !openMenu
-                         ? "  max-md:opacity-0 z-10"
-                         : "  opacity-100 z-30"
+                         ? "  max-md:opacity-0 max-md:z-[-1] "
+                         : "  max-md:opacity-100 max-md:z-30"
                      }
                     `}
             >
