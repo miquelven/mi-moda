@@ -17,12 +17,12 @@ export default function SaleArea() {
                 data-aos="fade-up"
                 key={sale.id}
                 data-aos-delay={sale.id * 600}
-                className="h-80 w-full relative hover:brightness-125 max-lg:h-60 max-lg:mx-auto max-lg:flex max-lg:justify-center max-lg:bg-black/60 max-lg:rounded-xl max-lg:overflow-hidden max-lg:shadow-md max-lg:shadow-black/20 max-sm:flex-col max-sm:h-96 "
+                className=" h-80 w-full relative hover:brightness-125 max-lg:h-60 max-lg:mx-auto max-lg:flex max-lg:justify-center max-lg:bg-black/60 max-lg:rounded-xl max-lg:overflow-hidden max-lg:shadow-md max-lg:shadow-black/20 max-md:brightness-95 max-md:hover:brightness-100 max-sm:flex-col max-sm:h-96 "
               >
                 <img
                   src={sale.src}
                   alt={sale.alt}
-                  className="object-cover absolute z-10 h-96 inset-0 brightness-50 shadow-md shadow-black/20 rounded-md max-lg:h-full max-lg:w-60 max-lg:brightness-100 max-lg:relative max-sm:w-full max-sm:object-top  max-sm:shadow-none max-sm:rounded-none max-sm:h-60"
+                  className=" object-cover absolute z-10 h-96 inset-0 brightness-50 shadow-md shadow-black/20 rounded-md max-lg:h-full max-lg:w-60 max-lg:brightness-100 max-lg:relative max-sm:w-full max-sm:object-top  max-sm:shadow-none max-sm:rounded-none max-sm:h-60"
                 />
 
                 <div className="relative z-20 h-96 w-full flex flex-col justify-center gap-6 items-center text-white max-lg:justify-start max-lg:gap-14 max-sm:gap-2 ">
